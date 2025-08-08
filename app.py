@@ -1,6 +1,6 @@
 import streamlit as st
 # streamlit run app.py
-st.title("Streamlit Demo App")
+st.title("Streamlit Demo")
 
 st.header(" Heading of Streamlit")
 
@@ -32,6 +32,7 @@ st.text(f"selected option is {occupation}")
 if st.button("Example Button"):
     st.error("You clicked it")
 
+user_message = st.chat_input("Enter your message:")
+st.text(user_message)
 st.sidebar.header("Heading of sidebar")
-
-st.sidebar.text("Created by Murthy")
+st.sidebar.text("Created by Jayant")
