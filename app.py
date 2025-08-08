@@ -1,6 +1,6 @@
 import streamlit as st
 # streamlit run app.py
-st.title("Streamlit Demo Manifold AI learning Murthy")
+st.title("Streamlit Demo App")
 
 st.header(" Heading of Streamlit")
 
@@ -33,4 +33,5 @@ if st.button("Example Button"):
     st.error("You clicked it")
 
 st.sidebar.header("Heading of sidebar")
+
 st.sidebar.text("Created by Murthy")
